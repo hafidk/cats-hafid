@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MainCatsComponent from './components/MainCatsComponent/MainCats';
 import styled from 'styled-components';
