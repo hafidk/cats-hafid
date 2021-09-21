@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/src/statics/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Chango;
+  src: url(/src/statics/Chango-Regular.ttf);
+}
+
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/src/statics/catBackground.jpeg);
+}

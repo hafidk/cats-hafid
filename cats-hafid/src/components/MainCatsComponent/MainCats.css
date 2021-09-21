@@ -1,0 +1,19 @@
+
+.main-cats {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10vw;
+}
+.main-cats > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.main-cats > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
