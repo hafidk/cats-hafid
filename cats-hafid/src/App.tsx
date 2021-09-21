@@ -7,6 +7,9 @@ const AppClass = styled.div`
 text-align: center;
 font-family: Roboto;
 margin: 0vh 29vw;
+@media(max-width: 768px) {
+  margin: 0vh 1vw;
+}
 `;
 
 const HeaderClass = styled.div`
